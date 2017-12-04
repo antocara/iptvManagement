@@ -25,13 +25,15 @@ The version for mobile phones and tablets is available for download at https://i
 
 ## Screen Shots.
 
-![alt tag](https://i.imgur.com/4v3Q4El.png "Description goes here")
+![alt tag](https://i.imgur.com/4v3Q4El.png "Init screens")
 
-![alt tag](https://i.imgur.com/UedpfHo.png "Description goes here")
+![alt tag](https://i.imgur.com/UedpfHo.png "Channels")
 
-![alt tag](https://i.imgur.com/aG92n3H.png "Description goes here")
+![alt tag](https://i.imgur.com/aG92n3H.png "Settings")
 
-![alt tag](https://i.imgur.com/9ZGuLOT.png "Description goes here")
+![alt tag](https://i.imgur.com/9ZGuLOT.png "Channels")
+
+![alt tag](https://i.imgur.com/snE5qEC.png "Add Epg list")
 
 ## License.
 
