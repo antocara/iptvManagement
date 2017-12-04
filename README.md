@@ -7,6 +7,10 @@ It also manages EPG lists that are in the XMLTV format.
 
 The application is written almost entirely using Kotlin with the exception of some classes that are in Java. It uses the Realm IO library for persistence.
 
+At this moment it uses to reproduce the streamings of the channels an intent that it looks for if VLC or MX Player is installed and it is through this how they are reproduced.
+
+The idea is to implement or Exoplayer or internally include a version of VLC.
+
 
 ## Utilization:
 Download the master branch, compile and have fun. Or you can also use the apk file that is in the file and that is exactly the compilation of the latest version of the master branch that exists.
