@@ -1,0 +1,75 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'realm-android'
+apply plugin: 'kotlin-kapt'
+
+
+android {
+  compileSdkVersion 26
+  buildToolsVersion "26.0.2"
+
+
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 26
+    versionCode 1
+    versionName "1.0"
+
+    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    multiDexEnabled true
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+}
+
+dependencies {
+
+  implementation fileTree(include: ['*.jar'], dir: 'libs')
+  implementation files('libs/jdom-2.0.5.jar')
+
+  implementation rootProject.ext.kotlin
+  //android
+  implementation rootProject.ext.appCompatV7
+
+
+  //retrofit
+  implementation rootProject.ext.retrofit
+  implementation rootProject.ext.logginInterceptor
+  implementation rootProject.ext.gsonConverter
+
+  //rx_java
+  compile group: 'io.reactivex', name: 'rxandroid', version: '1.2.1'
+  compile group: 'com.squareup.retrofit2', name: 'adapter-rxjava', version: '2.3.0'
+
+
+  //gson
+  compile group: 'com.google.code.gson', name: 'gson', version: '2.8.2'
+
+  compile(rootProject.gsonXml) {
+    exclude group: 'xmlpull', module: 'xmlpull'
+  }
+
+
+  //images
+  implementation rootProject.ext.glide
+  kapt rootProject.ext.glideCompiler
+
+
+  testImplementation 'junit:junit:4.12'
+  androidTestImplementation 'com.android.support.test:runner:1.0.1'
+  androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+
+}
+
+
+repositories {
+  mavenCentral()
+}
+
+

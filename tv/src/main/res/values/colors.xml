@@ -1,0 +1,19 @@
+<resources>
+  <color name="background_gradient_start">@color/color_primary_dark</color>
+  <color name="background_gradient_end">#DDDDDD</color>
+  <color name="fastlane_background">#0096a6</color>
+  <color name="search_opaque">#ffaa3f</color>
+  <color name="selected_background">#ffaa3f</color>
+  <color name="default_background">#3d3d3d</color>
+
+
+  <color name="color_primary">#13967d</color>
+  <color name="color_primary_dark">#006751</color>
+  <color name="color_accent">#8BC34A</color>
+  <color name="color_transparent">@android:color/transparent</color>
+
+  <color name="settings_background">@color/color_primary_dark</color>
+
+
+  <color name="color_white">#FFFFFF</color>
+</resources>

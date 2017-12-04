@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="with_row_grid">150dp</dimen>
+  <dimen name="height_row_grid">100dp</dimen>
+
+
+  <dimen name="margin_card_view">8dp</dimen>
+  <dimen name="radius_card_view">5dp</dimen>
+  <!-- texts -->
+  <dimen name="title_channel_size">16sp</dimen>
+
+  <!-- grid -->
+  <dimen name="width_icon_channel_grid">80dp</dimen>
+  <dimen name="height_icon_channel_grid">60dp</dimen>
+
+  <!-- general -->
+  <dimen name="default_margin">16dp</dimen>
+
+  <!-- letter fav back -->
+  <dimen name="shape_back_letter_fav">30dp</dimen>
+
+  <!-- is tablet flag -->
+  <bool name="is_tablet">false</bool>
+
+  <dimen name="min_height_text_grid">60dp</dimen>
+</resources>

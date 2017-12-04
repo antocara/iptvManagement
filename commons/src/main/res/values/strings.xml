@@ -1,0 +1,54 @@
+<resources>
+  <string name="app_name">Commons</string>
+
+
+  <string name="package_name_vlc">org.videolan.vlc</string>
+  <string name="player_vlc">VLC</string>
+
+
+  <string name="done">Done</string>
+
+  <!-- notifications -->
+  <string name="notification_save_channels_title">Channels saved</string>
+  <string name="notification_ended_save">The channels data are finish saved, go to de channel list and enjoy</string>
+
+  <string name="notification_save_epg_title">Epg data saved</string>
+  <string name="notification_ended_save_epg">The channels data are finish saved, go to de channel list and enjoy</string>
+
+
+
+
+  <!-- settings-->
+  <string name="pref_header_about">About</string>
+  <string name="pref_header_player">Player</string>
+  <string name="title_version">Version</string>
+  <string name="app_version">3.5</string>
+  <string name="acknowledgment">Acknowledgment</string>
+
+
+  <string name="summary_support">Got any queries? We are happy to help!</string>
+  <string name="title_send_feedback">Send Feedback</string>
+
+  <!--<string name="player_vlc">VLC</string>-->
+  <string name="player_mx">MX Player Pro</string>
+  <string name="player_mx_free">MX Player Free</string>
+  <string name="title_player">Select player streaming</string>
+
+  <string name="email_support">mailto:antocara@gmail.com</string>
+  <string name="email_title_feedback">Feedback IPTV Management</string>
+
+  <string name="key_version_app">key_version_app</string>
+  <string name="key_player">key_player</string>
+  <string name="key_acknowledgment">key_acknowledgment</string>
+  <string name="acknowledgment_content"> Icon launcher thanks to <a href="https://www.flaticon.com">Flaticon</a></string>
+  <string name="package_name_mx_pro">com.mxtech.videoplayer.pro</string>
+  <string name="package_name_mx_ad">com.mxtech.videoplayer.ad</string>
+
+
+  <!-- dialogs -->
+  <string name="dialog_add_fav_title">Add new favorite List</string>
+  <string name="dialog_add_fav_description">Please, add a name for your new favorite list</string>
+  <string name="dialog_add_fav_name_hint">Favorite List name</string>
+  <string name="dialog_add_fav_prefill"></string>
+  <string name="dialog_cancel">Cancel</string>
+</resources>

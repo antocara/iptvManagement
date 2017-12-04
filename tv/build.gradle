@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+  compileSdkVersion 26
+  buildToolsVersion "26.0.2"
+  defaultConfig {
+    applicationId "com.anp.iptvmanagement"
+    minSdkVersion 21
+    targetSdkVersion 26
+    versionCode 1
+    versionName "1.0"
+    multiDexEnabled true
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+}
+
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+  implementation rootProject.ext.kotlin
+  //android
+  implementation rootProject.ext.appCompatV7
+  //tv
+  implementation rootProject.ext.leanBackV17
+  implementation rootProject.ext.preferenceLeanBackV17
+  //images
+  implementation rootProject.ext.glide
+  kapt rootProject.ext.glideCompiler
+
+
+
+  compile project(path: ':commons')
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="with_row_grid">250dp</dimen>
+  <dimen name="height_row_grid">200dp</dimen>
+
+
+  <!-- grid -->
+  <dimen name="width_icon_channel_grid">120dp</dimen>
+  <dimen name="height_icon_channel_grid">90dp</dimen>
+
+
+  <bool name="is_tablet">true</bool>
+
+  <dimen name="min_height_text_grid">60dp</dimen>
+</resources>

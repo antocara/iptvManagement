@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:minHeight="130dp"
+    android:outlineProvider="bounds"
+    >
+
+  <LinearLayout
+      android:id="@+id/root_view_grid_item"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:background="@color/color_white"
+      android:elevation="5dp"
+      android:orientation="vertical"
+      >
+
+
+    <ImageView
+        android:id="@+id/channel_icon"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_placeholder"
+        />
+
+
+    <TextView
+        android:id="@+id/title_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="5dp"
+        android:maxLines="1"
+        android:textColor="@color/color_primary_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tool:text="sadasdasd asd"
+        />
+
+    <RelativeLayout
+        android:id="@+id/epg_metadata"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+
+      <android.support.v7.widget.AppCompatSeekBar
+          android:id="@+id/seekBar_widget"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:background="@color/color_primary"
+          android:clickable="false"
+          android:max="100"
+          android:progress="30"
+          android:progressDrawable="@drawable/custom_seekbar"
+          android:thumb="@color/color_transparent"
+          android:thumbTint="@android:color/transparent"
+
+          />
+
+      <TextView
+          android:id="@+id/epg_program_title"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_centerVertical="true"
+          android:layout_marginEnd="15dp"
+          android:layout_marginStart="15dp"
+          android:ellipsize="end"
+          android:gravity="center_vertical"
+          android:maxLines="1"
+          android:textColor="@color/color_white"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          tool:text="sadasdas dsfd sdfsdf sdfsf sdf sdf sdfsdfsdf d asd"
+          />
+
+    </RelativeLayout>
+
+  </LinearLayout>
+
+
+</RelativeLayout>

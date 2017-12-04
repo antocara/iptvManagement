@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:summary="This is a dummy activitiy only to show case how to build a settings in an application. Changing configurations in this example doesn't affect anything."-->
+    <!--android:title="Settings Example">-->
+  <!--<PreferenceScreen-->
+      <!--android:icon="@drawable/ic_add_to_queue_white_48dp"-->
+      <!--android:key="prefs_wifi_screen_key"-->
+      <!--android:title="Wi-Fi">-->
+    <!--<PreferenceCategory-->
+        <!--android:key="prefs_wifi_networks_key"-->
+        <!--android:title="Available Wi-Fi networks">-->
+      <!--<ListPreference-->
+          <!--android:defaultValue="-1"-->
+          <!--android:entries="@array/pref_wifi_networks"-->
+          <!--android:entryValues="@array/pref_wifi_networks"-->
+          <!--android:key="prefs_wifi_key"-->
+          <!--android:title="Available Wi-Fi networks" />-->
+    <!--</PreferenceCategory>-->
+    <!--<PreferenceCategory-->
+        <!--android:key="prefs_wifi_others_key"-->
+        <!--android:title="Other options">-->
+      <!--<Preference-->
+          <!--android:key="prefs_wifi_connect_wps"-->
+          <!--android:title="Connect via WPS">&lt;!&ndash; You can use Intents here &ndash;&gt;-->
+      <!--</Preference>-->
+    <!--</PreferenceCategory>-->
+  <!--</PreferenceScreen>-->
+  <!--&lt;!&ndash;<PreferenceScreen&ndash;&gt;-->
+      <!--&lt;!&ndash;android:icon="@drawable/ic_border_color_white_48dp"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:key="prefs_date_time_screen_key"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:title="Date &amp; time">&ndash;&gt;-->
+    <!--&lt;!&ndash;<CheckBoxPreference&ndash;&gt;-->
+        <!--&lt;!&ndash;android:defaultValue="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:disableDependentsState="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:key="prefs_date_time_automatic"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:summaryOff="On"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:summaryOn="Off"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="Automatic date  &amp; time" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Preference&ndash;&gt;-->
+        <!--&lt;!&ndash;android:dependency="prefs_date_time_automatic"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:key="prefs_date"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:summary="01/01/1970"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="Date" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Preference&ndash;&gt;-->
+        <!--&lt;!&ndash;android:dependency="prefs_date_time_automatic"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:key="prefs_time"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:summary="00:43 PM"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="Time" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<CheckBoxPreference&ndash;&gt;-->
+        <!--&lt;!&ndash;android:defaultValue="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:disableDependentsState="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:key="prefs_date_time_use_timezone"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:summary="Use network provided time zone"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="Automatic time zone" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Preference&ndash;&gt;-->
+        <!--&lt;!&ndash;android:dependency="prefs_date_time_use_timezone"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:summary="GMT 07:00 Pacific Daylight Time"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="Time zone" />&ndash;&gt;-->
+  <!--&lt;!&ndash;</PreferenceScreen>&ndash;&gt;-->
+  <!--&lt;!&ndash;<ListPreference&ndash;&gt;-->
+      <!--&lt;!&ndash;android:defaultValue="everyone"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:dialogMessage="Allow contents rated for"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:entries="@array/pref_parent_control_entries"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:entryValues="@array/pref_parent_control_entries_values"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:icon="@drawable/ic_search_white_24dp"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:key="prefs_parental_control_level_key"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:title="Parental Control" />&ndash;&gt;-->
+  <!--&lt;!&ndash;<PreferenceScreen&ndash;&gt;-->
+      <!--&lt;!&ndash;android:icon="@drawable/ic_settings_white_48dp"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:key="prefs_apps_screen_key"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:title="Apps">&ndash;&gt;-->
+    <!--&lt;!&ndash;<PreferenceCategory&ndash;&gt;-->
+        <!--&lt;!&ndash;android:key="prefs_app_settings_category"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="Apps settings">&ndash;&gt;-->
+      <!--&lt;!&ndash;<PreferenceScreen&ndash;&gt;-->
+          <!--&lt;!&ndash;android:key="prefs_app_settings_screen_key"&ndash;&gt;-->
+          <!--&lt;!&ndash;android:summary="Lorem ipsum dolor sit amet consectur adipiscing."&ndash;&gt;-->
+          <!--&lt;!&ndash;android:title="App permissions">&ndash;&gt;-->
+        <!--&lt;!&ndash;<Preference&ndash;&gt;-->
+            <!--&lt;!&ndash;android:icon="@mipmap/ic_launcher"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:selectable="false"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:summary="45.5 MB"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:title="Application A" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<Preference&ndash;&gt;-->
+            <!--&lt;!&ndash;android:selectable="false"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:summary="Hier steht ein voelligst sinnfreier Text den ja sowieso niemandhier lesen kann. Deshalb macht es auch keinen Unterschied ob hier sinnvolles und nicht so sinnvolles Zeug steht. Hm... Sasha, du kannst das vielleicht lesen und denkst dir jetzt auch, dass ich voll haengen geblieben bin, oder?... ^_^" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<Preference&ndash;&gt;-->
+            <!--&lt;!&ndash;android:key="pref_force_stop"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:title="Force Stop">&lt;!&ndash; Start an Intent &ndash;&gt;</Preference>&ndash;&gt;-->
+        <!--&lt;!&ndash;<Preference&ndash;&gt;-->
+            <!--&lt;!&ndash;android:key="pref_uninstall"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:title="Uninstall">&lt;!&ndash; Start an Intent &ndash;&gt;</Preference>&ndash;&gt;-->
+        <!--&lt;!&ndash;<Preference&ndash;&gt;-->
+            <!--&lt;!&ndash;android:key="pref_more_info"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:title="More Information" />&ndash;&gt;-->
+      <!--&lt;!&ndash;</PreferenceScreen>&ndash;&gt;-->
+    <!--&lt;!&ndash;</PreferenceCategory>&ndash;&gt;-->
+    <!--&lt;!&ndash;<PreferenceCategory&ndash;&gt;-->
+        <!--&lt;!&ndash;android:key="prefs_app_downloaded_apps_category"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="Downloaded Apps">&ndash;&gt;-->
+      <!--&lt;!&ndash;<ListPreference&ndash;&gt;-->
+          <!--&lt;!&ndash;android:defaultValue="everyone"&ndash;&gt;-->
+          <!--&lt;!&ndash;android:entries="@array/pref_parent_control_entries"&ndash;&gt;-->
+          <!--&lt;!&ndash;android:entryValues="@array/pref_parent_control_entries_values"&ndash;&gt;-->
+          <!--&lt;!&ndash;android:key="prefs_parental_control_level_key"&ndash;&gt;-->
+          <!--&lt;!&ndash;android:title="Downloaded Apps" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</PreferenceCategory>&ndash;&gt;-->
+  <!--&lt;!&ndash;</PreferenceScreen>&ndash;&gt;-->
+<!--</PreferenceScreen>-->
+
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <PreferenceCategory android:title="@string/pref_header_player">
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/title_player"
+        android:entries="@array/pref_player_entries"
+        android:entryValues="@array/pref_player_values"
+        android:key="@string/key_player"
+        android:title="@string/title_player" />
+  </PreferenceCategory>
+
+
+  <PreferenceCategory android:title="@string/pref_header_about">
+
+    <Preference
+        android:key="@string/key_version_app"
+        android:summary="@string/app_version"
+        android:title="@string/title_version" />
+
+
+    <Preference
+        android:summary="@string/summary_support"
+        android:title="@string/title_send_feedback">
+      <!--<intent-->
+          <!--android:action="android.intent.action.VIEW"-->
+          <!--android:data="@string/email_support">-->
+        <!--<extra-->
+            <!--android:name="android.intent.extra.SUBJECT"-->
+            <!--android:value="@string/email_title_feedback" />-->
+        <!--<extra-->
+            <!--android:name="android.intent.extra.TEXT"-->
+            <!--android:value="Text of Feedback" />-->
+      <!--</intent>-->
+    </Preference>
+
+    <Preference
+        android:key="@string/key_acknowledgment"
+        android:summary=""
+        android:title="@string/acknowledgment" />
+
+  </PreferenceCategory>
+
+
+</PreferenceScreen>

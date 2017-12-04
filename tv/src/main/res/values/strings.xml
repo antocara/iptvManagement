@@ -1,0 +1,59 @@
+<resources>
+  <string name="app_name">Iptv Management TV</string>
+  <string name="browse_title"><![CDATA[Videos by Your Company]]></string>
+  <string name="related_movies">Related Videos</string>
+  <string name="grid_view">Grid View</string>
+  <string name="error_fragment">Error Fragment</string>
+  <string name="personal_settings">Personal Settings</string>
+  <string name="watch_trailer_1">Watch trailer</string>
+  <string name="watch_trailer_2">FREE</string>
+  <string name="rent_1">Rent By Day</string>
+  <string name="rent_2">From $1.99</string>
+  <string name="buy_1">Buy and Own</string>
+  <string name="buy_2">AT $9.99</string>
+  <string name="movie">Movie</string>
+  <string name="should_start">shouldStart</string>
+
+  <!-- Error messages -->
+  <string name="video_error_media_load_timeout">Media loading timed out</string>
+  <string name="video_error_server_inaccessible">Media server was not reachable</string>
+  <string name="video_error_unknown_error">Failed to load video</string>
+  <string name="error_fragment_message">An error occurred</string>
+  <string name="dismiss_error">Dismiss</string>
+
+
+  <string name="preferences_title">PREFERENCES</string>
+  <string name="preferences_add_list">Add channels list</string>
+  <string name="preferences_edit_list">Edit channels list</string>
+  <string name="preferences_channels_list">Channels list</string>
+  <string name="preferences_epg_list">Epg list</string>
+  <string name="preferences_settings">Settings</string>
+
+
+  <!-- settings channels list -->
+  <string name="settings_add_channel_title">Add or edit channels list</string>
+  <string name="settings_add_channel_legend">Please, select an option from right panel</string>
+  <string name="settings_add_channel">Add Channel list</string>
+  <string name="settings_edit_channel">Edit Channel list</string>
+  <string name="settings_delete_channel">Delete Channel list</string>
+
+  <!-- settings epg -->
+  <string name="settings_epg_title">Add or edit EPG list</string>
+  <string name="settings_epg_legend">Please, select an option from right panel</string>
+  <string name="settings_add_epg">Add EPG list</string>
+  <string name="settings_edit_epg">Edit EPG list</string>
+  <string name="settings_delete_epg">Delete EPG list</string>
+  <string name="add_epg_url">Url path to EPG list</string>
+
+  <!-- add channel list -->
+  <string name="add_channel_name">Name channels list</string>
+  <string name="add_channel_url">Url path channels list</string>
+  <string name="add_channel_a_name">A name for the list</string>
+  <string name="add_channel_a_url">A url for download the list</string>
+  <!-- error form -->
+  <string name="error_fields_mandatory">All fields are mandatory</string>
+
+
+  <string name="cancel">Cancel</string>
+  <string name="save">Save</string>
+</resources>
